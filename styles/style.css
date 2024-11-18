@@ -1,5 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQKF3m0w5l6Qw3PZQKF3m0w5l6.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('https://fonts.gstatic.com/s/robotomono/v22/L0x5DF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_SeW4Ep0.woff2') format('woff2');
+}
 
 * {
   box-sizing: border-box;
