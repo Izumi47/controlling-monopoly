@@ -64,8 +64,8 @@ h3 {
 }
 
 .dice-icon {
-  margin-left: -27em;
-  margin-top: -12em;
+  margin-left: -22em;
+  margin-top: -9em;
   width: 5em;
   height: 5em; 
   background-size: contain;
@@ -107,7 +107,7 @@ h3 {
   position: relative;
   display: inline-block;
   margin: 0.3em;
-  width: 600px;
+  width: 481px;
 }
 .flip > .front {
   background-color: rgb(215, 239, 243) !important;
@@ -120,7 +120,7 @@ h3 {
   background-size: contain !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  height: 350px;
+  height: 281px;
   padding: 1em 2em;
   background: #313131;
   border-radius: 10px;
@@ -148,7 +148,33 @@ h3 {
   color: #fff;
   text-shadow: 0 0 5px #fff,
                0 0 10px #fff,
-               0 0 15px #0073e6,
+               2px 2px 1px #000000,
                0 0 20px #0073e6,
                0 0 25px #0073e6;
+}
+
+.fullscreen-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.fullscreen-btn svg {
+  width: 30px;
+  height: 30px;
+  stroke: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+}
+
+.fullscreen-btn:hover {
+  transform: scale(1.1);
+}
+
+.fullscreen-btn:hover svg {
+  stroke: #0073e6;
 }
